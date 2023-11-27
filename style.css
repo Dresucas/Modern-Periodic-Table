@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,700&display=swap');
+
+body{
+background-color: rgb(0, 0, 0);
+overflow: hidden;
+    user-select: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    min-height: 90vh;
+    cursor:default;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(83, 80, 80, 0);
+    border-radius: 5px;
+    color:transparent;
+    margin-left: 8px;
+    margin-top: 0px;
+
+}
+
+#info{
+    font-size: 15.5px;
+    font-family: 'montserrat';
+}
+
+.h, .he, .li, .be, .b,.al, .li1, .e1, .e2, .li2{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 15.5px;
+    margin-top: 15.5px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'raleway';
+    transition: .5s; 
+}
+.h:hover{
+    width: 110px;
+    height: 110px;
+    background-color: yellow;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 0, 0.539);
+}
+
+
+.h:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.li2:hover{
+    width: 110px;
+    height: 110px;
+    background-color: rgb(255, 146, 146);
+    color: black;
+    border: rgb(255, 146, 146);
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 3px rgba(255, 146, 146, 0.539);
+}
+
+
+.li2:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.he:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.li:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.li:hover .name{display: none;}
+.e1:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.e1:hover .name{display: none;}
+.e2:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.e2:hover .name{display: none;}
+.li2:hover .name{display: none;}
+
+.be:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.be:hover .name{display: none;}
+
+.b:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.b:hover .name{display: none;}
+.al:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.al:hover .name{display: none;}
+.li1:hover #info{
+    color: black;
+    display: block;
+    font-size: 15.5px;
+}
+.li1:hover .name{display: none;}
+
+.h:hover .name{
+    display: none;
+}
+
+.he:hover .name{
+    display: none;
+}
+
+
+.he:hover{
+    width: 110px;
+    height: 110px;
+    background-color: orange;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px 3px rgba(255, 166, 0, 0.654);
+}
+.li2{
+    color:rgb(255, 146, 146);
+    border: 1px solid rgb(255, 146, 146);
+    box-shadow: 0px 0px 10px 3px rgba(255, 146, 146, 0.439);
+    animation: enter11 3s;
+}
+.h{
+    color:rgb(221, 210, 0);
+    border: 1px solid rgb(218, 207, 0);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 0, 0.539);
+    animation: enter 3s;
+}
+#info{
+    color: transparent;
+    display: none;
+}
+
+.he{
+    color:orange;
+    border: 1px solid orange;
+    box-shadow: 0px 0px 10px 3px rgba(255, 166, 0, 0.654);
+    animation: enter1 3s;
+}
+
+.li{
+    color: red;
+    border: 1px solid red;
+    animation: enter2 3s;
+    box-shadow: 0px 0px 10px 3px rgba(255, 0, 0, 0.71);
+}
+
+.be{
+    color: rgb(255, 0, 255);
+    border: 1px solid rgb(255, 0, 255);
+    box-shadow: 0px 0px 10px 3px rgba(212, 0, 255, 0.539);
+    animation: enter3 3s;
+}
+
+.b{
+    color:rgb(71, 126, 255);
+    border:1px solid rgb(84, 133, 255);
+    box-shadow: 0px 0px 10px 3px rgba(73, 158, 255, 0.539);
+    animation: enter4 3s;
+}
+
+.al{
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    box-shadow: 0px 0px 10px 3px rgba(0, 255, 8, 0.539);
+    animation: enter5 3s;
+}
+
+.li1{
+    color:aqua;
+    box-shadow: 0px 0px 10px 3px rgba(0, 242, 255, 0.539);
+    border: 1px solid aqua;
+    animation: enter6 3s;
+}
+
+.e1{
+    color: rgb(229, 192, 255);
+    border: 1px solid rgb(229, 192, 255);
+    box-shadow: 0px 0px 10px 3px rgba(221, 160, 221, 0.721);
+    animation: enter7 3s;
+}
+
+.e2{
+    color:rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(0, 0, 0, 0.34));
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.539);
+    animation: enter8 3s;
+}
+
+.li:hover, .be:hover, .b:hover,.al:hover, .li1:hover, .e1:hover, .e2:hover{
+    font-size: 40px;
+    width: 110px;
+    height: 110px;
+    color: black;
+    cursor:default;
+    font-weight: 700;
+}
+.li:hover{
+    background-color: red;
+    box-shadow: 0px 0px 10px 3px rgba(255, 0, 0, 0.71);
+}
+.be:hover{
+    background-color: rgb(255, 0, 255);
+    box-shadow: 0px 0px 10px 3px rgba(212, 0, 255, 0.539);
+}
+.b:hover{
+    background-color: rgb(74, 140, 255);
+    box-shadow: 0px 0px 10px 3px rgba(73, 158, 255, 0.539);
+}
+.al:hover{
+    background-color: chartreuse;
+    box-shadow: 0px 0px 10px 3px rgba(0, 255, 8, 0.539);
+}
+.li1:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 10px 3px rgba(0, 242, 255, 0.539);
+}
+.e1:hover{
+    background-color:plum;
+    box-shadow: 0px 0px 10px 3px rgba(221, 160, 221, 0.721);
+}
+
+.e2:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.539);
+}
+
+/* @keyframes enter{
+    0%{
+        background-color: yellow;
+        color: transparent;
+    }
+    25%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: transparent;
+        color: yellow;
+    }
+}
+@keyframes enter1{
+    0%, 25%{
+        background-color: orange;
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: orange;
+    }
+}
+@keyframes enter2{
+    0%, 25%{
+        background-color: red;
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: red;
+    }
+}
+@keyframes enter3{
+    0%, 25%{
+        background-color: rgb(255, 0, 225);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(255, 0, 225);
+    }
+}
+
+@keyframes enter4{
+    0%, 25%{
+        background-color: rgb(41, 124, 247);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(41, 124, 247);
+    }
+}
+
+@keyframes enter5{
+    0%, 25%{
+        background-color: rgb(0, 255, 60);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(0, 255, 60);
+    }
+}
+@keyframes enter6{
+    0%, 25%{
+        background-color: rgb(0, 213, 255);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(0, 242, 255);
+    }
+}
+@keyframes enter7{
+    0%, 25%{
+        background-color: plum;
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: plum;
+    }
+}
+@keyframes enter8{
+    0%, 25%{
+        background-color: rgb(255, 255, 255);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes enter11{
+    0%, 25%{
+        background-color: rgb(255, 146, 146);
+        color: transparent;
+    }
+    100%{
+        background-color: transparent;
+        color: rgb(255, 146, 146);
+    }
+} */
+
+
+.c1{
+    border: 1px solid yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: Yellow;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c2{
+    border: 1px solid orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: orange;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c3{
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: red;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c4{
+    border: 1px solid rgb(255, 22, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(255, 0, 255);
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c5{
+    border: 1px solid rgb(71, 126, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(128, 166, 255);
+    font-family: 'Raleway';
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+.c6{
+    border: 1px solid aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: aqua;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c7{
+    border: 1px solid chartreuse;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: chartreuse;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c8{
+    border: 1px solid plum;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: plum;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c9{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+.c10{
+    border: 1px solid rgb(255, 146, 146);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    color: rgb(255, 146, 146);
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.a{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.aa{
+    margin-left: -4px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.aaa{
+    margin-left: -4px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.labels{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-bottom: -100px;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo{
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: .6s;
+}
+
+.l1{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'poppins';
+    font-weight: 700;
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.l1:hover{
+    color: aqua;
+}
+
+.logo:hover{
+    color: chartreuse;
+}
