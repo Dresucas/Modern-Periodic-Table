@@ -9,7 +9,7 @@ To use the neon periodic table in your project, follow these steps:
 
 1. Copy the HTML code from `table.html`.
 2. Paste the code into your HTML file where you want the periodic table to appear.
-3. Link the CSS file `styles.css` in the head of your HTML file.
+3. Link the CSS file `style.css` in the head of your HTML file.
 
 ```html
 <link rel="stylesheet" type="text/css" href="path/to/styles.css">
